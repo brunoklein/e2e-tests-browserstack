@@ -1,0 +1,25 @@
+{
+  "name": "e2e-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codeceptjs/allure-legacy": "1.0.2",
+    "@codeceptjs/configure": "0.10.0",
+    "allure-commandline": "2.18.1",
+    "codeceptjs": "3.6.3",
+    "codeceptjs-assert": "0.0.5",
+    "codeceptjs-chai": "2.3.3",
+    "dotenv": "16.4.5",
+    "global-agent": "3.0.0",
+    "playwright": "1.44.1",
+    "playwright-core": "1.44.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "8.7.0"
+  }
+}

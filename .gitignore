@@ -1,0 +1,9 @@
+node_modules
+output/*
+dist
+.DS_Store
+.idea
+.vscode
+!output/.gitkeep
+tmp/*
+!tmp/.gitkeep
