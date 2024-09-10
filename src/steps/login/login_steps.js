@@ -5,7 +5,7 @@ const { I } = inject();
   });
 
   When('I log in using an unregistered account', () => {
-    I.fillField('//input[@id="emailOrNick"]', 'test@doclerholding.com');
+    I.fillField('//input[@id="emailOrNick"]', 'test@test.com');
     I.fillField('//input[@id="password"]', 'password');
     I.click("Login");
   });
